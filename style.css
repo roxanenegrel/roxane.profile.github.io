@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://www.vintagewallpapers.com/images/products/small-rose-pattern-wallpaper/_1000xAUTO_cover_center-center_line/Small-Rose-Pattern-Wallpaper-6.jpeg); 
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px dotted gold;
+}
+
+.container {
+    width: 100%;
+    /*: 10px blue solid, */
+}
+
+.card-white {
+    background-color: pink;
+    width: 700px;
+    margin: 20px auto;
+    box-shadow: 10px 20px 20px grey;
+    padding: 20px;
+    border-radius: 8%;
+}
+
+.card-white1 {
+    background-image: url(https://tcsvoyages.ch/wp-content/uploads/2019/09/laponie-aurore-boreale.png);
+    background-size:cover;
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    box-shadow: 10px 20px 20px grey;
+    padding: 20px;
+    border-radius: 8%;
+}
+
+h1 {
+    font-size: 38px;
+    color: deeppink;
+}
+
+h2 {
+    font-size: 24px;
+    color:darkolivegreen;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 50px;
+    height: 100px;
+    object-fit:contain;
+    margin: 10px;
+}
+
+#lapland {
+    color: white;
+}
+
+#mouse {
+    width: 50px;
+    height: 50px;
+}
+
+.food {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 3px black solid;
+}
+
+@media screen and (max-width; 300px)
+    .card-white {
+        width: 300px;
+    }
